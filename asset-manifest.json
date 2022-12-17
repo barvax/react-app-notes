@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/https//barvax.github.io/react-app-notes/static/css/main.2ff61dfa.css",
+    "main.js": "/https//barvax.github.io/react-app-notes/static/js/main.c11801a9.js",
+    "static/js/787.cfd8f164.chunk.js": "/https//barvax.github.io/react-app-notes/static/js/787.cfd8f164.chunk.js",
+    "index.html": "/https//barvax.github.io/react-app-notes/index.html",
+    "main.2ff61dfa.css.map": "/https//barvax.github.io/react-app-notes/static/css/main.2ff61dfa.css.map",
+    "main.c11801a9.js.map": "/https//barvax.github.io/react-app-notes/static/js/main.c11801a9.js.map",
+    "787.cfd8f164.chunk.js.map": "/https//barvax.github.io/react-app-notes/static/js/787.cfd8f164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ff61dfa.css",
+    "static/js/main.c11801a9.js"
+  ]
+}
