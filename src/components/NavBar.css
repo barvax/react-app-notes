@@ -1,0 +1,36 @@
+.navBar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 200px;
+   
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+li{
+    padding: 10px;
+}
+li :hover{
+    color: rgb(125, 135, 143);
+}
+.NavBar-delete-screen{
+    width:600px;
+    height: 350px;
+    background-color: rgb(173, 173, 173);
+    position: absolute;
+    top: 30%;
+    left: 40%;
+   
+}
+.NavBar-delete-screen.hide{
+    visibility: hidden;
+}
