@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import MainScreen from './components/MainScreen';
 import ChooseRoom from './components/ChooseRoom';
+import Login from './components/Login.js';
 
 
 function App() {
@@ -98,7 +99,8 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element=
+      <Route path="/" element={<Login/>}/>
+        <Route path="/lobby" element=
           {<ChooseRoom
             user={users}
             setMyRoomId={setMyRoomId}

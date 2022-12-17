@@ -10,6 +10,8 @@ function ChooseRoom(props) {
 
  
     let roomCounter = props.user[0].rooms.length>0?props.user[0].rooms[props.user[0].rooms.length-1].id:1;
+    
+    
     function handleClick(roomId) {
         props.roomId(roomId)
        
@@ -49,7 +51,8 @@ function ChooseRoom(props) {
                 })}
 
             </div>
-            <button onClick={Test}>test</button>
+            {/* <button onClick={Test}>test</button> */}
+           <Link to="/">Log Out </Link>
         </div>
 
     )

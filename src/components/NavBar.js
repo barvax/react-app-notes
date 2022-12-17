@@ -43,7 +43,7 @@ function NavBar(props) {
             <nav className="navBar">
                 <ul>
                     <li><Link className="link" onClick={z}>Settings</Link></li>
-                    <li> <Link className="link" to="/" >Back to lobby</Link></li>
+                    <li> <Link className="link" to="/lobby" >Back to lobby</Link></li>
 
                 </ul>
 
