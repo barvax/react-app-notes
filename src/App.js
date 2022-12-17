@@ -99,7 +99,7 @@ function App() {
   return (
     <div>
       <Routes>
-      <Route path="/" element={<Login/>}/>
+      <Route exact path="/" element={<Login/>}/>
         <Route path="/lobby" element=
           {<ChooseRoom
             user={users}
